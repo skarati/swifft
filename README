@@ -11,4 +11,4 @@ swifft-16-avx2: contains the codes for 16-way parallelization
        bswifft-16-avx2: includes code for binary input, that is the traditional SWIFFT
        gswifft-16-avx2: includes code for inputs from $\mathbb{Z}_{257}^{1024}$
 
-Implementors: Sabyasachi Karati
+Implementor: Sabyasachi Karati
