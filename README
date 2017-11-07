@@ -1,1 +1,14 @@
-# swifft
+This repository contains the new implementations of SWIFFT and generalized SWIFFT function using avx2 intrinsics.
+
+To run the programs and verfy, one should go to the directory and run the shell script using the command
+sh run.sh
+
+swifft-8-avx2: contains the codes for 8-way parallelization
+       bswifft-8-avx2: includes code for binary input, that is the traditional SWIFFT
+       gswifft-8-avx2: includes code for inputs from $\mathbb{Z}_{257}^{1024}$
+
+swifft-16-avx2: contains the codes for 16-way parallelization
+       bswifft-16-avx2: includes code for binary input, that is the traditional SWIFFT
+       gswifft-16-avx2: includes code for inputs from $\mathbb{Z}_{257}^{1024}$
+
+Implementors: Sabyasachi Karati
